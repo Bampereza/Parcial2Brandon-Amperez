@@ -234,8 +234,23 @@ public class FuncionesBancarias {
                        System.out.println("Ingrese la opcion que desee utilizar: ");    
                        int compraDebito =sc.nextInt();
                        
-                         break;
+                       switch (compraDebito){
 
+                    case 1:
+                        System.out.println("-----------------------------------------------");
+                        System.out.println("--------Cada camisa vale Q 250.00:  -----------");
+                        System.out.println("Ingrese la cantidad de ropa que desea comprar: ");
+                        System.out.println("-----------------------------------------------");
+                         primerNumero = sc.nextInt();
+                         
+                        System.out.println(nuevoProgramaBAC.compraTotal(primerNumero));
+                        System.out.println("Su saldo restante es de:  "+nuevoProgramaBAC.compraTotal);
+                           
+			   break;
+                        
+                         
+
+}
 }
 }
 }

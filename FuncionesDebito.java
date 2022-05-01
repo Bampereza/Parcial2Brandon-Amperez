@@ -21,5 +21,11 @@ public class FuncionesDebito extends TarjetasB {
       return depositoTotal = primerNumero+saldoTotal;
     
 }
-     
+      public int compraTotal (int primerNumero) {
+ 
+       compraTotal = primerNumero*camisasB;
+       
+    
+       return compraTotal-saldoTotal;
+}
 }
