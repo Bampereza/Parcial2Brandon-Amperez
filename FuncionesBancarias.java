@@ -210,6 +210,31 @@ public class FuncionesBancarias {
                         System.out.println("Su saldo total es de: "+nuevoProgramaBAC.saldoTotal);
                            
 			   break;
+                           
+                    case 2:
+			System.out.println("----------------------------------------------------------");
+                        System.out.println("----Ingrese la cantidad de dinero que desea depositar: ---");
+                        System.out.println("----------------------------------------------------------");
+                         int primerNumero = sc.nextInt();
+                         
+                        System.out.println(nuevoProgramaBAC.depositoTotal(primerNumero));
+                        System.out.println("Su saldo actual es de:  "+nuevoProgramaBAC.depositoTotal);
+                        
+			   break;
+                           
+                    case 3:
+			  
+                       System.out.println("--------------------------------------------------");
+                       System.out.println("--------Que desea compra desea realizar:  --------");
+                       System.out.println("--------------------------------------------------");
+                       System.out.println("Camisas (1)");
+                       System.out.println("Telefono (2)");
+                       System.out.println("bicicleta (3)");
+                
+                       System.out.println("Ingrese la opcion que desee utilizar: ");    
+                       int compraDebito =sc.nextInt();
+                       
+                         break;
 
 }
 }
