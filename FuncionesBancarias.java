@@ -91,10 +91,108 @@ public class FuncionesBancarias {
                         System.out.println("Su saldo actual es de: "+nuevoProgramaBA.saldoB);
                         
 			   break;
+                           
+                    case 4:
+			
+                       System.out.println("--------------------------------------------------");
+                       System.out.println("-----------Que compra desea realizar:  -----------");
+                       System.out.println("--------------------------------------------------");
+                       System.out.println("Gorras (1)");
+                       System.out.println("Televisores (2)");
+                       System.out.println("Carros (3)");
+                
+                       System.out.println("Ingrese la opcion que desee utilizar: ");    
+                       int compraCredito =sc.nextInt();
+                    
+              switch (compraCredito){
+
+                    case 1:
+                        System.out.println("-----------------------------------------------");
+                        System.out.println("---------Cada Gorra vale Q 500.00:  -----------");
+                        System.out.println("Ingrese la cantidad de ropa que desea comprar: ");
+                        System.out.println("-----------------------------------------------");
+                         int numeroBase = sc.nextInt();
+                         
+                        System.out.println(nuevoProgramaBA.compraTotal4(numeroBase));
+                        System.out.println("Su saldo restante es de:  "+nuevoProgramaBA.compraTotal4);
+                           
+			   break;
+                           
+                    case 2:
+                        System.out.println("--------------------------------------------------");
+                        System.out.println("-------Cada television vale Q 2000.00:  ----------");
+                        System.out.println("Ingrese la cantidad de ropa que desea comprar:    ");
+                        System.out.println("--------------------------------------------------");
+                        numeroBase = sc.nextInt();
+                         
+                        System.out.println(nuevoProgramaBA.compraTotal5(numeroBase));
+                        System.out.println("Su saldo restante es de:  "+nuevoProgramaBA.compraTotal5);
+                           
+			   break;
+                           
+                    case 3:
+                        System.out.println("--------------------------------------------------");
+                        System.out.println("----------Cada carro vale Q 7000.00:  ------------");
+                        System.out.println("Ingrese la cantidad de ropa que desea comprar:    ");
+                        System.out.println("--------------------------------------------------");
+                        numeroBase = sc.nextInt();
+                         
+                        System.out.println(nuevoProgramaBA.compraTotal6(numeroBase));
+                        System.out.println("Su saldo restante es de:  "+nuevoProgramaBA.compraTotal6);
+                           
+			   break;
+                           
+                    case 5:
+                       System.out.println("--------------------------------------------------");
+                       System.out.println("------------Que pago desea realizar:  ------------");
+                       System.out.println("--------------------------------------------------");
+                       System.out.println("Pago de cable(1)");
+                       System.out.println("Pago de luz  (2)");
+                       System.out.println("Pago de agua (3)");
+                
+                       System.out.println("Ingrese la opcion que desee utilizar: ");    
+                       int compraCredito2 =sc.nextInt();
+                    
+              switch (compraCredito2){
+
+                    case 1 :
+                        System.out.println("--------------------------------------------------------");
+                        System.out.println("----------El pago de cable es de Q 500.00:  ------------");
+                        System.out.println("--------------Porfavor realice su pago: ----------------");
+                        System.out.println("--------------------------------------------------------");
+                        int numeroBase2 = sc.nextInt();
+                        
+                        System.out.println(nuevoProgramaBA.compraTotal7(numeroBase2));
+                        System.out.println("Su saldo restante es de:  "+nuevoProgramaBA.compraTotal7);
+                        break;
+                           
+                    case 2 :
+                        System.out.println("--------------------------------------------------------");
+                        System.out.println("-----------El pago de luz es de Q 1000.00:  ------------");
+                        System.out.println("--------------Porfavor realice su pago: ----------------");
+                        System.out.println("--------------------------------------------------------");
+                        numeroBase2 = sc.nextInt();
+                        System.out.println(nuevoProgramaBA.compraTotal8(numeroBase2));
+                        System.out.println("Su saldo restante es de:  "+nuevoProgramaBA.compraTotal8);
+                        break;
+                           
+                    case 3 :
+                        System.out.println("--------------------------------------------------------");
+                        System.out.println("----------El pago del agua es de Q 500.00:  ------------");
+                        System.out.println("--------------Porfavor realice su pago: ----------------");
+                        System.out.println("--------------------------------------------------------");
+                        numeroBase2 = sc.nextInt();
+                        System.out.println(nuevoProgramaBA.compraTotal9(numeroBase2));
+                        System.out.println("Su saldo restante es de:  "+nuevoProgramaBA.compraTotal9);
+                        break;
+              }
+
 }
 }
 }
 }
+}
+
 
 
 
