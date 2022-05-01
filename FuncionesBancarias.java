@@ -186,12 +186,36 @@ public class FuncionesBancarias {
                         System.out.println("Su saldo restante es de:  "+nuevoProgramaBA.compraTotal9);
                         break;
               }
+              }
+              }
+                   break;
+                case 2:  
+                  System.out.println("----------------------------------------------------------");
+                  System.out.println("--------Porfavor ingrese el numero de su tarjeta: --------");
+                  System.out.println("----------------------------------------------------------");
+                    float num2=sc.nextFloat();
+                       System.out.println ("\n");
+                       System.out.println("Elija la funcion que desee utilizar");
+                       System.out.println("Saldo total (1)");
+                       System.out.println("Depositar (2)");
+                       System.out.println("Pagar (3)");
+                
+                       System.out.println("Ingrese la opcion que desee utilizar: ");    
+                       int opDebito =sc.nextInt();
+                    
+              switch (opDebito){
+
+                    case 1:
+                           
+                        System.out.println("Su saldo total es de: "+nuevoProgramaBAC.saldoTotal);
+                           
+			   break;
 
 }
 }
 }
 }
-}
+
 
 
 
