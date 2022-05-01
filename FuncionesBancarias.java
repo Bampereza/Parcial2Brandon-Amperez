@@ -65,7 +65,32 @@ public class FuncionesBancarias {
                            
 			   break;
 
-	            
+	            case 2:
+		        System.out.println("--------------------------------------");  
+                        System.out.println("---Ingrese el valor de su credito: ---");
+                        System.out.println("--------------------------------------");
+                         float primerNumero = sc.nextFloat();
+                   
+                        System.out.println("--------------------------------------");  
+                        System.out.println("----Ingrese la tasa de intereses: ----");
+                        System.out.println("--------------------------------------");
+                         float segundoNumero = sc.nextFloat();
+                         
+                        System.out.println("---------------------------------------------");  
+                        System.out.println("---Ingrese el periodo de tiempo en meses: ---");
+                        System.out.println("---------------------------------------------"); 
+                         float tercerNumero = sc.nextFloat();
+                         
+                        System.out.println(nuevoProgramaBA.interesBA(primerNumero, segundoNumero, tercerNumero));
+                        System.out.println("El interes total es de:  "+nuevoProgramaBA.tasatotal);
+                         
+			   break;
+                           
+                    case 3:
+			  
+                        System.out.println("Su saldo actual es de: "+nuevoProgramaBA.saldoB);
+                        
+			   break;
 }
 }
 }
