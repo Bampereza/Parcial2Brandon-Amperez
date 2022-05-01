@@ -260,7 +260,17 @@ public class FuncionesBancarias {
                            
 			   break;
                         
+                      case 3:
+                        System.out.println("--------------------------------------------------");
+                        System.out.println("--------Cada bicicleta vale Q 750.00:  -----------");
+                        System.out.println("Ingrese la cantidad de ropa que desea comprar:    ");
+                        System.out.println("--------------------------------------------------");
+                         primerNumero = sc.nextInt();
                          
+                        System.out.println(nuevoProgramaBAC.compraTotal3(primerNumero));
+                        System.out.println("Su saldo restante es de:  "+nuevoProgramaBAC.compraTotal3);
+                           
+			   break;    
 
 }
 }
