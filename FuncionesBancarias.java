@@ -247,6 +247,18 @@ public class FuncionesBancarias {
                         System.out.println("Su saldo restante es de:  "+nuevoProgramaBAC.compraTotal);
                            
 			   break;
+                           
+                    case 2:
+                        System.out.println("--------------------------------------------------");
+                        System.out.println("--------Cada telefono vale Q 1000.00:  -----------");
+                        System.out.println("Ingrese la cantidad de ropa que desea comprar:    ");
+                        System.out.println("--------------------------------------------------");
+                         primerNumero = sc.nextInt();
+                         
+                        System.out.println(nuevoProgramaBAC.compraTotal2(primerNumero));
+                        System.out.println("Su saldo restante es de:  "+nuevoProgramaBAC.compraTotal2);
+                           
+			   break;
                         
                          
 
